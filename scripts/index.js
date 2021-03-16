@@ -9,7 +9,7 @@ const items = [
 ];
 
 const page = document.querySelector('.page');
-const createTodoListForm = (...arg) => new TodoListForm(...arg);
-const createTodoListItem = (...arg) => new TodoListItem(...arg);
+const createTodoListForm = (...args) => new TodoListForm(...args);
+const createTodoListItem = (...args) => new TodoListItem(...args);
 const todoList = new TodoList(items, createTodoListForm, createTodoListItem);
 todoList.render(page);

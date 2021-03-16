@@ -1,6 +1,12 @@
 class TodoListForm {
 
   static _template = document.querySelector('#todolist-form-template').content;
+  /*
+    <form class="todolist-form">
+      <input type="text" class="todolist-form_input" />
+      <button type="submit" class="todolist-form_submit">Сохранить</button>
+    </form>
+   */
 
   constructor(addItem) {
     this._addItem = addItem;

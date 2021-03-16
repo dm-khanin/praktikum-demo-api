@@ -1,6 +1,13 @@
 class TodoListItem {
 
   static _template = document.querySelector('#todolist-item-template').content;
+  /*
+    <article class="todolist-item">
+        <span class="todolist-item__text">Текст задачи</span>
+        <button class="todolist-item__copy"></button>
+        <button class="todolist-item__del"></button>
+    </article>
+   */
 
   constructor(text, addItem) {
     this._text = text;

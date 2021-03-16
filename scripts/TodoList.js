@@ -1,7 +1,11 @@
 class TodoList {
 
   static _template = document.querySelector('#todolist-template').content;
-
+  /*
+    <section class="todolist">
+      <h1>Todo List</h1>
+    </section>
+   */
   constructor(items, createTodoListForm, createTodoListItem) {
     this._items = items;
     this._createTodoListForm = createTodoListForm;
